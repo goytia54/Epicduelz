@@ -1,16 +1,16 @@
-#obi_wan inital file
-obi_wan #name of character
-17 #life
-6 6 #inital position
+#darth_vader inital file
+darth_vader #name of character
+18 #life
+0 3 #inital position
 1 # attack type, 1. saber, 2. blaster
 #cards attack defense
-1 4 2
-2 4 2
+1 5 2
+2 5 2
 3 4 2
 4 4 2
 5 4 0
 6 4 0
-7 6 0
+7 4 0
 8 2 2
 9 2 2
 10 2 2

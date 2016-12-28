@@ -1,6 +1,8 @@
 #darth_maul inital file
+darth_maul #name of character
 18 #life
 0 0 #inital position
+1 # attack type, 1. saber, 2. blaster
 #cards attack defense 
 1 4 1
 2 4 1

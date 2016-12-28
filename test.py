@@ -7,9 +7,5 @@ Created on Tue Dec  6 21:42:46 2016
 """
 import random
 
-def main():
-	for i in xrange(100):
-		print random.randint(0,3)
-	
+array = [[2,2,3],[2,4,5],[4,5,7]]
 
-main()

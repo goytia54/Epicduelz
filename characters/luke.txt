@@ -1,7 +1,7 @@
-#obi_wan inital file
-obi_wan #name of character
-17 #life
-6 6 #inital position
+#luke inital file
+luke # name of character
+16 #life
+6 4 #inital position
 1 # attack type, 1. saber, 2. blaster
 #cards attack defense
 1 4 2
@@ -17,5 +17,5 @@ obi_wan #name of character
 11 3 2
 12 1 4
 13 1 4
-14 1 4
-15 1 4
+14 1 5
+15 1 5
