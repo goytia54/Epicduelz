@@ -5,6 +5,10 @@ Created on Tue Dec  6 21:42:46 2016
 
 @author: Michael
 """
+'''#######################################################################################
+move_character determines the indexes of the spaces you can move to and move_allowed checks 
+whether or not the input you give is allowed baced on adjacent moves and no diagonal moves.
+######################################################################################'''
 
 def move_character(max_spaces,board_dim,player,playing_board):
     #3 is 24 options
@@ -25,6 +29,7 @@ def move_character(max_spaces,board_dim,player,playing_board):
 			fail = int(x),int(y)
 			dec = raw_input('Are you sure you want to move to '+str(x)+' '+str(y)+' ? (y or n): ')
 			mv_allowed = move_allowed(x,y,possible_moves,playing_board,player)
+			#update the positions
 			if dec == 'y' and mv_allowed == True:
 				catch = 0
 				print playing_board[int(x)]
@@ -44,8 +49,10 @@ def move_character(max_spaces,board_dim,player,playing_board):
     return player,playing_board
 
 def move_allowed(x,y,possible_moves,playing_board,player):
+	# check to see if space is occupied
 	if playing_board[int(x)][int(y)] != 0:
 		return False
+	# checks to see if suggested x and y move is allowed 
 	for i in xrange(len(possible_moves)):
 		if possible_moves[i][0] == int(x) and possible_moves[i][1] == int(y):
 			return True
