@@ -4,6 +4,10 @@ Spyder Editor
 
 This is a temporary script file.
 """
+'''############################################################
+Star wars epic duels board game brought to life through python
+
+###########################################################'''
 
 from board import *
 from classes import *
