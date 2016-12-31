@@ -3,6 +3,10 @@ import os
 import random
 import cards
 
+'''#######################################################################
+init_game will asks for the numer of players in the game and then randomly
+selects the players and returns the order of players
+#######################################################################'''
 def init_game():
 	catch =1
 	os.system('cls' if os.name == 'nt' else 'clear')
