@@ -51,7 +51,7 @@ def place_character(p_list,playing_board):
 #  5
 #  ..
 
-5def draw_board(playing_board,board_dim):
+def draw_board(playing_board,board_dim):
     os.system('cls' if os.name == 'nt' else 'clear')
     game_prompt()    
     board_str=''
