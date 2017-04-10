@@ -1,11 +1,6 @@
 from classes import *
 import os
 
-'''#######################################################################
-init_character() takes the number of players and extracts data from the file
- to then pass that into the player class
-######################################################################'''
-
 def init_character(p_index):
 	os.chdir('characters')
 	character_array = ['darth_maul.txt','obi_wan.txt','luke.txt','darth_vader.txt']
